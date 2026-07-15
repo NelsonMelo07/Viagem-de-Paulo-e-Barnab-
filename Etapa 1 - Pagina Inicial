@@ -1,24 +1,96 @@
-│
-├── index.html
-├── style.css
-├── script.js
-│
-├── assets/
-│   ├── images/
-│   ├── mapas/
-│   ├── icons/
-│   ├── videos/
-│   └── audio/
-│
-├── data/
-│   └── cidades.json
-│
-└── pages/
-    ├── antioquia.html
-    ├── salamina.html
-    ├── pafos.html
-    ├── perge.html
-    ├── antioquia-pisidia.html
-    ├── iconio.html
-    ├── listra.html
-    └── derbe.html
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>A Primeira Viagem Missionária de Paulo e Barnabé</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<div id="intro">
+
+    <div class="overlay">
+
+        <h1>
+            A PRIMEIRA<br>
+            VIAGEM MISSIONÁRIA
+        </h1>
+
+        <h2>
+            Paulo e Barnabé
+        </h2>
+
+        <p>
+            Atos 13–14
+        </p>
+
+        <button id="btnStart">
+            Iniciar Viagem
+        </button>
+
+    </div>
+
+</div>
+
+<section id="mapa">
+
+    <header>
+
+        <h1>
+            O Mundo do Primeiro Século
+        </h1>
+
+    </header>
+
+    <main>
+
+        <div id="mapaMediterraneo">
+
+            <!-- mapa será colocado aqui -->
+
+        </div>
+
+        <aside id="painelCidade">
+
+            <h2>
+                Bem-vindo
+            </h2>
+
+            <p>
+
+                Nesta apresentação você acompanhará cada etapa da primeira viagem missionária de Paulo e Barnabé.
+
+            </p>
+
+            <p>
+
+                Clique em "Iniciar Viagem" para começar.
+
+            </p>
+
+        </aside>
+
+    </main>
+
+</section>
+
+<footer>
+
+    Projeto Bíblico Interativo
+
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
